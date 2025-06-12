@@ -37,3 +37,26 @@ li{
 .slide3{
     transform: translateX(-66.66%);
 }
+.slide div:nth-of-type(1){
+    background-color: #e1f3fc;
+}
+.slide div:nth-of-type(2){
+    background-color: #fce8f0;
+}
+.slide div:nth-of-type(3){
+    background-color: #e3f1e4;
+}
+/*左右のボタン*/
+.next{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    right: 10px;
+    bottom: 50%;
+    z-index: 10;
+    cursor: pointer;
+    border-top:solid 3px #000;
+    border-right: solid 3px #000;
+    -webkit-transform: rotate(45deg)translateY(50%);
+    transform: rotate(45deg)translateY(50%);
+}
